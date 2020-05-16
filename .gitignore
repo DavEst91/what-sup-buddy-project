@@ -1,6 +1,7 @@
 #my ignores
 input/
 models/
+trail_photos/
 .env
 # Byte-compiled / optimized / DLL files
 __pycache__/
