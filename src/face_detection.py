@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 #loading model
-net = cv2.dnn.readNetFromCaffe("../src/face_detection/opencv/deploy.prototxt", "../src/face_detection/opencv/res10_300x300_ssd_iter_140000_fp16.caffemodel")
+net = cv2.dnn.readNetFromCaffe("src/face_detection/opencv/deploy.prototxt", "src/face_detection/opencv/res10_300x300_ssd_iter_140000_fp16.caffemodel")
 
 def face_detection(route_to_image):
     image = cv2.imread(route_to_image)
@@ -24,4 +24,4 @@ def face_detection(route_to_image):
         roi=(roi/255).reshape((1,48,48,1))
         return roi
     else:
-        return "This picture shows no face"
+        return False
