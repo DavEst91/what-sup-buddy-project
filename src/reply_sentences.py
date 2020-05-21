@@ -7,6 +7,6 @@ status_emotions=[["Ey @{user}. You look angry. Relax. Take, this son will make y
                  ["Yoo look disgusted @{user}. Are you all right? Listen to this {url}", "Why are you disgusted @{user}. Tell me while you listen to this song."],
                  ["Don't be afraid @{user}. We are here. Let's listen to this son together{url}.", "Have you seen a monster @{user}? You look scared. Let's listen to this song."],
                  ["Ey! You look happy @{user}! This song will make you day even better! {url}","Glad you are happy @{user}! Let's dance! {url}"],
-                 ["Oh, you look sad @{user}. Need a hug? {url}", "U_U I don't like to see you sad @{user}. Everything is going to be better. {url}"],
+                 ["Oh, you look sad @{user}. Need a hug? {url}", "U_U I don't like seeing you sad @{user}. Everything is going to be better. {url}"],
                  ["What happenned @{user}? You look surprised! {url}", "It's also a surprise to me seeing you @{user}. Let's listen to this song! {url} "],
                  ["Somedays are just like that. Nothing interesting happened. Neutral days. Take a song for you @{user} {url}","Neutral is better than bad. Isn't it @{user}? Listen to this song. {url}"]]

@@ -2,6 +2,7 @@
 input/
 models/
 trial_photos/
+beamer/
 .env
 # Byte-compiled / optimized / DLL files
 __pycache__/
